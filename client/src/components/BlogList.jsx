@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { blog_data, blogCategories } from '../assets/assets'
+import { blogCategories } from '../assets/assets'
 import {motion} from 'motion/react'
 import BlogCard from './BlogCard'
 import { useAppContext } from '../contexts/AppContext'
