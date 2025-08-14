@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Nata Sans", sans-serif;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --color-primary: #4cc9f0; 
+  --color-bg: #121212; 
+  --color-bg-card: #1e1e1e; 
+  --color-text: #e0e0e0; 
+  --color-subtext: #9ca3af; 
+  --color-border: #2a2a2a; 
+}
+
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+
+.rich-text {
+  font-size: 15px;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.rich-text p {
+  margin-bottom: 16px;
+}
+
+.rich-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary) !important;
+  margin: 28px 0;
+}
+
+.rich-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-text) !important;
+  margin: 20px 0;
+}
+
+.rich-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-subtext) !important;
+  margin: 16px 0;
+}
+
+.rich-text h4,
+.rich-text h5,
+.rich-text h6 {
+  font-weight: 500;
+  color: var(--color-subtext) !important;
+  margin: 12px 0;
+}
+
+.rich-text strong {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.rich-text ol,
+.rich-text ul {
+  margin-left: 30px;
+}
+
+.rich-text li {
+  margin-bottom: 8px;
+}
+
+.rich-text a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--color-bg-card);
+  color: var(--color-text);
+  font-weight: 600;
+  padding: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-subtext);
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+
+
+button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #38bdf8;
+}
