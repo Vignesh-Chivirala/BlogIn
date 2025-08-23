@@ -1,6 +1,3 @@
-Based on the images you provided, I've analyzed the project and created a comprehensive README file for the GitHub repository.
-
------
 
 # BlogIn
 
